@@ -3,7 +3,7 @@
     class="container"
     :class="{ 'light-background': !isDarkMode, 'dark-background': isDarkMode }"
   >
-    <RequestAccount/>
+    <RequestAccount />
     <div class="login">
       <img src="@/assets/DCHQ.svg" />
       <!-- v-if="isDarkMode - image appears only when toggled to dark mode-->
@@ -26,7 +26,7 @@
         :class="{ 'light-link': isDarkMode, 'dark-link': !isDarkMode }"
         >Forgot your password?</router-link
       >
-      <ThemeSwitch/>
+      <ThemeSwitch />
     </div>
   </div>
 </template>
@@ -53,7 +53,6 @@ export default {
 </script>
 
 <style scoped lang="scss">
-
 .container {
   display: flex;
   justify-content: center;
@@ -64,5 +63,4 @@ export default {
 .login {
   width: 400px;
 }
-
 </style>
