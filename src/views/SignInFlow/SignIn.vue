@@ -46,11 +46,6 @@ export default {
       return this.$store.getters.isDarkMode;
     }
   },
-  methods: {
-    toggleDarkMode() {
-      this.$store.getters.isDarkMode;
-    }
-  },
   mounted() {
     netlifyIdentityWidget.open();
   }
